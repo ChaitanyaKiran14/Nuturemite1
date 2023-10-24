@@ -1,0 +1,55 @@
+
+/* Carousel container styles */
+#carouselExampleControls {
+    width: 100%;
+    max-width: 800px; /* Adjust the max width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Carousel item styles */
+  .carousel-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for carousel items */
+    border-radius: 5px;
+  }
+  
+  /* Carousel image styles */
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Carousel control styles */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    background-color: rgba(0, 0, 0, 0.2); /* Background color for control buttons */
+    border-radius: 5px;
+  }
+  
+  /* Icon styles for control buttons (You can use your own icons or styling) */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: url("your-icon-prev.png"); /* Replace with your icon image path */
+    background-size: cover;
+  }
+  
+  /* Hide the "Previous" and "Next" text on control buttons */
+  .carousel-control-prev .sr-only,
+  .carousel-control-next .sr-only {
+    display: none;
+  }
+  
+  /* Active item styles (you can customize this further) */
+  .carousel-item.active {
+    background-color: #333; /* Active item background color */
+    color: #fff; /* Active item text color */
+  }
+  
+  /* Optional: Add transition effects for smoother transitions between slides */
+  .carousel-inner {
+    transition: transform 0.5s ease-in-out;
+  }
+  

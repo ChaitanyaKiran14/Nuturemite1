@@ -1,0 +1,59 @@
+/* Carousel Container */
+#carouselExampleControls {
+    width: 100%;
+    max-width: 800px; /* Adjust the width as per your design */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Individual Carousel Items */
+  .carousel-item {
+    text-align: center;
+  }
+  
+  /* Carousel Images */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the max-height as per your design */
+  }
+  
+  /* Carousel Control Arrows */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  /* Center Carousel Control Arrows Vertically */
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Center Carousel Control Arrows Horizontally */
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+  /* You can style the arrow icons as you like */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  
+  /* Active Carousel Item Indicator */
+  .carousel-indicators li {
+    background-color: #007bff; /* Change the color to your preference */
+  }
+  
+  /* Active Carousel Item Indicator (Active State) */
+  .carousel-indicators .active {
+    background-color: #0056b3; /* Change the color to your preference */
+  }
+  
